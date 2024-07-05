@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Products/>}></Route>
+        <Route path='/redux-app' element={<Products/>}></Route>
         <Route path='/counter' element={<Counter/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/profile' element={<Profile/>}></Route>
